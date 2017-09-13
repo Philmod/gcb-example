@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple example for Google Cloud Container Builder",
   "main": "app.js",
+  "engines" : {
+    "node" : ">=v6.4.0" 
+  },
   "scripts": {
     "start": "node app.js",
     "test": "NODE_ENV=test mocha test.js"
